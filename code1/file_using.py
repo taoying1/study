@@ -4,7 +4,7 @@ if you wanna make your work also fun:
         use Python!'''
 
 f=open('poem.txt','w') #创建并打开文件
-f.write(poem)
+f.write(poem)  #字符串写入文件
 f.close()
 
 f=open('poem.txt','r')
